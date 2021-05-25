@@ -1,0 +1,151 @@
+
+
+This is the first part of our whole  format desing for maiking the scrach app that will tackle all the
+three required outcomes hihglithed for the asheya beauty salon . So we first tackled the first bullet 
+by coming up with an idea that will maximize or monitor financial returns of products in stock that will 
+innovate and creates better decision making financially for the salon. The idea will calculate all 
+capital invloved in menaging all operations, expenses which includes disconts made,bonuses,also profit and this will help decide 
+wether efficient is met financially and value is created.
+
+
+so these is the begining part 
+
+Inputs
+Capital Introduced.                                   PROSSESSING                                  OUTPUT 
+
+Enter 
+Stock recived amount.                              Calculate profits =                            Loss made 
+Enter Employee regular salary                      Total sales from stock -                       Profit generated from stock 
+sum  with bonuses                                  Employees regular salary sum  
+Enter                                              with bonuses + Discounts made  
+Discounts made to customers and                    to customers 
+All sales made from stock   
+ 
+
+
+PUESOCODE 
+
+ START
+calculate stock_amount
+THEN enter total sum 
+calculate sum_salary of "employees"
+whith "bonuses" included
+THEN enter total sum    
+calculate all "sales" 
+from stock
+THEN  enter total
+calculate "discount" provided
+THEN  enter total
+
+calculate "profit" =
+Total sales from_stock -
+total_sum of "employees"
+whith "bonuses" + "discounts"
+made 
+
+get the profit made also
+get the loss made
+print "profit"
+print "loss made" 
+ end 
+
+
+
+alogorithm 
+GETT_profit_generated with_loss_made 
+    Prompt logical operator for sum(+)
+      add "employees" salary_sum include "bonuses"
+         THEN enter total_sum 
+             also add all "sales" from_stock
+                THEN enter total_sum 
+                    add discount provided 
+                       THEN enter total 
+                    calculate "profit" =
+               Prompt logical operator for sub(-)
+            set total "sales" sum from_stock -
+         total_sum of "employees" salary with 
+       "bonuses + "disconuts"
+     get the profit made 
+   get loss made 
+ print "profit"
+print "loos made"
+end_GETT_profit_generated with_loss_made   
+                 
+              
+   
+   
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+what i propose the for or the final product should include 
+The idea that i got is to track or range a customers in according to the overall products they buy or sallon visits within a specific range 
+of time so we know overall participaton in buying products or sallon visits so we can create customer intimacy by 
+providing sort of treats or special benefits to them if they qualify they recieve this benefits. not only does this attractt customer but create 
+a loyal customer base. new or old customers will be like given a unique id which is activated and whenever they oder packages when getting it they write id
+to add or singnify their prove for what they purchased    
+to elborate more 
+if a customer buys a packages >2 in for 4< weeks 
+he or she will get a 15% discount for the next three purchase they make  
+for salon visits same,= visits >2 in 5< weaks 
+nexts two vists free
+
+since products are deliverd record keeping will be taken
+also at salon
+
+inputs                  processing                output 
+pakckages bought        pocessing loop which      reacive discount when met 
+from an id within 4<    chekcs for required met   or no discount yet 
+weeks       
+visits from an id       procces                           decide if get two free visits 
+in within 5< weeks     
+    
+
+
+ void my_func(); 
+{
+    print("
