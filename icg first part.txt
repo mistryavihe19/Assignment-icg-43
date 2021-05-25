@@ -122,30 +122,3 @@ end_GETT_profit_generated with_loss_made
 
 
 
-what i propose the for or the final product should include 
-The idea that i got is to track or range a customers in according to the overall products they buy or sallon visits within a specific range 
-of time so we know overall participaton in buying products or sallon visits so we can create customer intimacy by 
-providing sort of treats or special benefits to them if they qualify they recieve this benefits. not only does this attractt customer but create 
-a loyal customer base. new or old customers will be like given a unique id which is activated and whenever they oder packages when getting it they write id
-to add or singnify their prove for what they purchased    
-to elborate more 
-if a customer buys a packages >2 in for 4< weeks 
-he or she will get a 15% discount for the next three purchase they make  
-for salon visits same,= visits >2 in 5< weaks 
-nexts two vists free
-
-since products are deliverd record keeping will be taken
-also at salon
-
-inputs                  processing                output 
-pakckages bought        pocessing loop which      reacive discount when met 
-from an id within 4<    chekcs for required met   or no discount yet 
-weeks       
-visits from an id       procces                           decide if get two free visits 
-in within 5< weeks     
-    
-
-
- void my_func(); 
-{
-    print("
