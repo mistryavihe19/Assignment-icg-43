@@ -34,7 +34,7 @@ START
    int salespeople [1] = num * 30
    Display totalComission
    int salespeople [2] = num * 30
-   Display totalComission
+   Display totalComission  //how much they have to pay usinga comission model, so money is saved when sales are not good
    Default: print ‘error’
 END
 
@@ -56,7 +56,7 @@ START
   Case of (workerWage){
   1: answer = overtimeHours * 25
   2: answer = normalHours * 20
-  totalWorkerWageAmount = answer 1 + answer 2
+  totalWorkerWageAmount = answer 1 + answer 2 //total wage that are to be paid to workers assemblying the products
   Default: print errorMessage
  ENDCASE
 END
@@ -66,14 +66,17 @@ customerDiscounts
 START
    PROMPT for customerID
    READ customerID
-    IF (customerID purchase = <purchase3) then
+    IF (customerID purchase = <purchase3) then //if this is not the third purchase, no discount
     DISPLAY normalPrice
-    ELSE IF (customerID purchase == purchase3) then
+    ELSE IF (customerID purchase == purchase3) then // if this is the third purchase, a discount on the price
     DISPLAY discountedPrice 
-    ELSE IF (customerID purchase == purchase5) then
+    ELSE IF (customerID purchase == purchase4) then //if this is the fourth purchase, no discount
+    DISPLAY normalPrice
+    ELSE IF (customerID purchase == purchase5) then // if this is the 5, a larger discount on the price
     DISPLAY discountedPrice2 
-    ELSE IF (customerID purchase = >purchase5) then
+    ELSE IF (customerID purchase = >purchase5) then //if the customer has purchased more than 5 times, a new normal price is set for them
     DISPLAY loyalPrice
+ ENDIF
  ENDIF
  ENDIF
  ENDIF
