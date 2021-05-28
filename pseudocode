@@ -28,7 +28,7 @@ START
   PROMPT for salespeople
   GET salespeople
    int salespeople [2] //salespeople's details and their names are stored in arrays
-   totalComission = salespeople[num]Sales * 30 
+   totalComission = salespeople[num]Sales * 30 // 30 is the sales comission
    calculate totalComission
    int salespeople [0] = salespeopleSales0 * 30
    Display totalComission
@@ -55,8 +55,8 @@ START
  ENDIF
 
   Case of (workerWage){
-  1: answer = overtimeHours * 25
-  2: answer = normalHours * 20
+  1: answer = overtimeHours * 25 // 25 is the overtime hourly wage
+  2: answer = normalHours * 20 // 20 is the hourly wage
   totalWorkerWageAmount = answer 1 + answer 2 //total wage that are to be paid to workers assemblying the products
   Default: print errorMessage
  ENDCASE
