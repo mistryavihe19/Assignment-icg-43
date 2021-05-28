@@ -9,7 +9,7 @@ START
     PROMPT for bankBalance
     READ bankBalance
 ENDDO
-  IF (price<=20) AND (bankBalance>=10000) THEN
+  IF (price=<20) AND (bankBalance>=10000) THEN
    rawMaterialsCounter(0)  // 0 at the start but it will depend on stock remaining from the last month
   ELSE print ‘not ready for order’
  ENDIF
@@ -28,7 +28,7 @@ START
   PROMPT for salespeople
   GET salespeople
    int salespeople [2] //salespeople's details and their names are stored in arrays
-   totalComission = salespeopleSales * 30 
+   totalComission = salespeople[num]Sales * 30 
    calculate totalComission
    int salespeople [0] = salespeopleSales0 * 30
    Display totalComission
