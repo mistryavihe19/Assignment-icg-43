@@ -26,16 +26,16 @@ totalComission
 START
   PROMPT for salespeople
   GET salespeople
-  int salespeople [2]
-  totalComission = salespeopleSales * 30
-  calculate totalComission
-  int salespeople [0] = salespeopleSales0 * 30
-  Display totalComission
-  int salespeople [1] = num * 30
-  Display totalComission
-  int salespeople [2] = num * 30
-  Display totalComission
-  Default: print ‘error’
+   int salespeople [2]
+   totalComission = salespeopleSales * 30
+   calculate totalComission
+   int salespeople [0] = salespeopleSales0 * 30
+   Display totalComission
+   int salespeople [1] = num * 30
+   Display totalComission
+   int salespeople [2] = num * 30
+   Display totalComission
+   Default: print ‘error’
 END
 
 
