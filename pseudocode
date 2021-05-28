@@ -2,23 +2,23 @@
 
 rawMaterials=0
 START
-  DOWHILE (NOT EOF)
+  DOWHILE (NOT EOF) //run loop as long as EOF is not entered
     PROMPT for price
     READ price
     PROMPT for bankBalance
     READ bankBalance
 ENDDO
   IF (price<=20) AND (bankBalance>=10000) THEN
-   rawMaterialsCounter(0)
+   rawMaterialsCounter(0)  // 0 at the start but it will depend on stock remaining from the last month
   ELSE print ‘not ready for order’
  ENDIF
  
   rawMaterialsCounter(num){
- numOfRawMaterials = num + 2000
+ numOfRawMaterials = num + 2000 //set to order 2000 batches of raw material the end of the month as this is their maximum capacity
  }
 
  bankBalance(num){
- bankBalanceAmount = num - 2000*price
+ bankBalanceAmount = num - 2000 * price // the total cost of the goods
  }
 END
 
@@ -26,8 +26,8 @@ totalComission
 START
   PROMPT for salespeople
   GET salespeople
-   int salespeople [2]
-   totalComission = salespeopleSales * 30
+   int salespeople [2] //salespeople's details and their names are stored in arrays
+   totalComission = salespeopleSales * 30 
    calculate totalComission
    int salespeople [0] = salespeopleSales0 * 30
    Display totalComission
