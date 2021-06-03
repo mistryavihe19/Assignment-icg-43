@@ -17,6 +17,8 @@ products. The case structure for the workerWage was created by Joseph, Robin and
 Finally, we have the customerDiscount module. This was created to reward loyal customers, whilst ensuring the product(s)
 sell at a profit. This was created by all group members.
 
+A link to the prototype: https://marvelapp.com/prototype/2a39ea3g
+
 
 
               
